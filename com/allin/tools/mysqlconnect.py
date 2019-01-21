@@ -45,7 +45,11 @@ def get_table():
          "--compress \\\n"\
          "--compression-codec com.hadoop.compression.lzo.LzopCodec\n"\
          "\n" \
-         "hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\""
+         "if [ $? -eq 0 ];then\n" \
+         "    hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\"\n" \
+         "else\n" \
+         "    echo 'sqoop faild'\n" \
+         "fi" \
       #print (addpar)
 
       # sqoop 文件
@@ -59,8 +63,8 @@ def get_table():
          "command=sh "+filename+"\n"\
          "dependencies=start"
       #print(file)
-      #write_file(jobfilename, file)
-      print(""+ods_pre+tablename+",")
+      write_file(jobfilename, file)
+      #print(""+ods_pre+tablename+",")
 
 
    # 关闭数据库连接

@@ -6,7 +6,7 @@ import pymysql
 
 
 def db_connect():
-    db = pymysql.connect(host="123.57.69.57", user="readonly", password="9ciuBd!D", port=4417,
+    db = pymysql.connect(host="wwyiding2016.mysql.rds.aliyuncs.com", user="dev_ops", password="SkGHWdYQ2ZbiGyBJ", port=3317,
                          database="information_schema")
 
     cursor = db.cursor()
@@ -16,9 +16,9 @@ def db_connect():
 
 def get_table():
     cur=db_connect()
-    database = "allin_platform"
-    ods_pre = "ods_allin_"
-    sql_tablename = "select table_name,table_comment from information_schema.tables where table_schema='allin_platform' and table_type='base table';"
+    database = "med_platform"
+    ods_pre = "ods_"
+    sql_tablename = "select table_name,table_comment from information_schema.tables where table_schema=\'" + database + "\' and table_type='base table';"
 
     # 执行SQL语句
     cur.execute(sql_tablename)

@@ -67,7 +67,7 @@ def create_table_ddl(tablename,ods_pre,tablecomment,allin_platform):
                 "  \'escape.delim\'=\'\\\\\',\n" \
                 "  \'serialization.null.format\'=\'\')\n" \
                 "STORED AS INPUTFORMAT\n" \
-                "  \'com.hadoop.mapred.DeprecatedLzoTextInputFormat\'\n" \
+                "  \'org.apache.hadoop.mapred.TextInputFormat\'\n" \
                 "OUTPUTFORMAT\n" \
                 "  \'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat\'\n" \
                 "LOCATION\n" \

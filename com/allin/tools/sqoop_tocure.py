@@ -47,11 +47,13 @@ def get_table():
            "--lines-terminated-by \'\\n\' \\\n"\
            "--hive-drop-import-delims \\\n"\
            "--m 5 \\\n"\
-           "--compress \\\n"\
-           "--compression-codec com.hadoop.compression.lzo.LzopCodec\n"\
            "\n" \
-           "hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\""
-        #print (addpar)
+           "if [ $? -eq 0 ];then\n" \
+           "    hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\"\n" \
+           "else\n" \
+           "    exit 1\n" \
+           "fi" \
+            #print (addpar)
 
         # sqoop 文件
         filename=ods_pre+tablename+".sh"
@@ -65,10 +67,10 @@ def get_table():
            "command=sh "+filename+"\n"\
            "dependencies=start"
         #print(file)
-        #write_file(jobfilename, file)
+        write_file(jobfilename, file)
 
         #打印end依赖
-        print(""+ods_pre+tablename+",")
+        #print(""+ods_pre+tablename+",")
 
 
     # 关闭数据库连接

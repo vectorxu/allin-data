@@ -21,37 +21,77 @@ def get_table():
         tablename = row[0]
         col = get_colume(tablename)
 
-        addpar=\
-           "!/bin/sh\n"\
-           "\n"\
-           "etl_date=`date -d -1day +%Y-%m-%d`\n" \
-           "\n" \
-           "host=`sudo cat sqoop_allin_to_ods.conf | grep host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
-           "port=`sudo cat sqoop_allin_to_ods.conf | grep port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
-           "user=`sudo cat sqoop_allin_to_ods.conf | grep user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-           "password=`sudo cat sqoop_allin_to_ods.conf | grep password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-           "database=`sudo cat sqoop_allin_to_ods.conf | grep database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
-           "\n"\
-           "sqoop import \\\n"\
-           "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&useSSL=false\" \\\n"\
-           "--username ${user} \\\n"\
-           "--password ${password} \\\n"\
-           "--query \"select "+col+" from "+tablename+" where 1=1 AND \\$CONDITIONS\" \\\n"\
-           "--split-by id \\\n"\
-           "--boundary-query \"select min(id),max(id) from "+tablename+"\" \\\n"\
-           "--delete-target-dir \\\n"\
-           "--target-dir /user/hive/data/ods/"+database+"/"+ods_pre+tablename+"/dt=\"${etl_date}\" \\\n"\
-           "--null-string \'\\\\N\' \\\n"\
-           "--null-non-string \'\\\\N\' \\\n"\
-           "--fields-terminated-by \'\\001\' \\\n"\
-           "--lines-terminated-by \'\\n\' \\\n"\
-           "--hive-drop-import-delims \\\n"\
-           "--m 5 \\\n"\
-           "--compress \\\n"\
-           "--compression-codec com.hadoop.compression.lzo.LzopCodec\n"\
-           "\n" \
-           "hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\""
+        l=col.split(',')
+
+        if ('id' in l):
+            addpar = \
+                "#!/bin/sh\n" \
+                "\n" \
+                "etl_date=`date -d -1day +%Y-%m-%d`\n" \
+                "\n" \
+                "host=`sudo cat sqoop_allin_to_ods.conf | grep host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "port=`sudo cat sqoop_allin_to_ods.conf | grep port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "user=`sudo cat sqoop_allin_to_ods.conf | grep user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "password=`sudo cat sqoop_allin_to_ods.conf | grep password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "database=`sudo cat sqoop_allin_to_ods.conf | grep database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "\n" \
+                "sqoop import \\\n" \
+                "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n" \
+                "--username ${user} \\\n" \
+                "--password ${password} \\\n" \
+                "--query \"select " + col + " from " + tablename + " where 1=1 AND \\$CONDITIONS\" \\\n" \
+                "--split-by id \\\n" \
+                "--boundary-query \"select min(id),max(id) from " + tablename + "\" \\\n" \
+                "--delete-target-dir \\\n" \
+                "--target-dir /user/hive/data/ods/" + database + "/" + ods_pre + tablename + "/dt=\"${etl_date}\" \\\n" \
+                "--null-string \'\\\\N\' \\\n" \
+                "--null-non-string \'\\\\N\' \\\n" \
+                "--fields-terminated-by \'\\001\' \\\n" \
+                "--lines-terminated-by \'\\n\' \\\n" \
+                "--hive-drop-import-delims \\\n" \
+                "--m 2 \\\n" \
+                "\n" \
+                "if [ $? -eq 0 ];then\n" \
+                "    hive -e \"alter table ods." + ods_pre + tablename + " add if not exists partition(dt=\'" + "\"\"\"${etl_date}\"\"\"\'" + ");\"\n" \
+                "else\n" \
+                "    exit 1\n" \
+                "fi" \
+                # print (addpar)
+        else:
+            addpar=\
+               "#!/bin/sh\n"\
+               "\n"\
+               "etl_date=`date -d -1day +%Y-%m-%d`\n" \
+               "\n" \
+               "host=`sudo cat sqoop_allin_to_ods.conf | grep host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "port=`sudo cat sqoop_allin_to_ods.conf | grep port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "user=`sudo cat sqoop_allin_to_ods.conf | grep user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+               "password=`sudo cat sqoop_allin_to_ods.conf | grep password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+               "database=`sudo cat sqoop_allin_to_ods.conf | grep database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "\n"\
+               "sqoop import \\\n"\
+               "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n"\
+               "--username ${user} \\\n"\
+               "--password ${password} \\\n"\
+               "--query \"select "+col+" from "+tablename+" where 1=1 AND \\$CONDITIONS\" \\\n"\
+               "--delete-target-dir \\\n"\
+               "--target-dir /user/hive/data/ods/"+database+"/"+ods_pre+tablename+"/dt=\"${etl_date}\" \\\n" \
+               "--num-mappers 1 \\\n" \
+               "--null-string \'\\\\N\' \\\n"\
+               "--null-non-string \'\\\\N\' \\\n"\
+               "--fields-terminated-by \'\\001\' \\\n"\
+               "--lines-terminated-by \'\\n\' \\\n"\
+               "--hive-drop-import-delims \\\n"\
+               "\n" \
+               "if [ $? -eq 0 ];then\n" \
+               "    hive -e \"alter table ods."+ods_pre+tablename+" add if not exists partition(dt=\'"+"\"\"\"${etl_date}\"\"\"\'"+");\"\n" \
+               "else\n" \
+               "    exit 1\n" \
+               "fi" \
         #print (addpar)
+
+        #"--compress \\\n" \
+        #"--compression-codec com.hadoop.compression.lzo.LzopCodec\n" \
 
         # sqoop 文件
         filename=ods_pre+tablename+".sh"
