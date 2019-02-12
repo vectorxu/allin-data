@@ -20,7 +20,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -45,7 +45,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -71,7 +71,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -97,7 +97,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -121,7 +121,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -147,7 +147,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -173,7 +173,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -202,7 +202,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -230,7 +230,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -259,7 +259,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -288,7 +288,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -317,7 +317,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -346,7 +346,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -375,7 +375,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -420,7 +420,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -449,7 +449,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -473,7 +473,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -499,7 +499,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -537,7 +537,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -573,7 +573,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -613,7 +613,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -642,7 +642,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -672,7 +672,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -698,7 +698,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -730,7 +730,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -761,7 +761,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -807,7 +807,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -837,7 +837,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -875,7 +875,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -909,7 +909,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -939,7 +939,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -980,7 +980,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1006,7 +1006,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1034,7 +1034,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1058,7 +1058,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1086,7 +1086,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1117,7 +1117,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1143,7 +1143,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1169,7 +1169,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1202,7 +1202,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1235,7 +1235,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1267,7 +1267,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1298,7 +1298,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1330,7 +1330,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1358,7 +1358,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1386,7 +1386,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1411,7 +1411,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1436,7 +1436,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1464,7 +1464,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1486,7 +1486,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1516,7 +1516,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1547,7 +1547,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1576,7 +1576,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1602,7 +1602,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1626,7 +1626,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1654,7 +1654,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1682,7 +1682,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1713,7 +1713,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1744,7 +1744,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1775,7 +1775,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1805,7 +1805,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1832,7 +1832,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1859,7 +1859,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1887,7 +1887,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1915,7 +1915,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1940,7 +1940,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1967,7 +1967,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -1993,7 +1993,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2020,7 +2020,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2047,7 +2047,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2078,7 +2078,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2119,7 +2119,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2159,7 +2159,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2199,7 +2199,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2239,7 +2239,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2279,7 +2279,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2319,7 +2319,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2360,7 +2360,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2417,7 +2417,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2471,7 +2471,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2501,7 +2501,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2532,7 +2532,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2559,7 +2559,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2596,7 +2596,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2623,7 +2623,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2650,7 +2650,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2677,7 +2677,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2704,7 +2704,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2731,7 +2731,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2758,7 +2758,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2787,7 +2787,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2843,7 +2843,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2870,7 +2870,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2897,7 +2897,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2924,7 +2924,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -2966,7 +2966,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3005,7 +3005,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3045,7 +3045,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3084,7 +3084,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3126,7 +3126,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3168,7 +3168,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3199,7 +3199,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3233,7 +3233,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3267,7 +3267,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3294,7 +3294,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3321,7 +3321,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3348,7 +3348,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3379,7 +3379,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3404,7 +3404,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3429,7 +3429,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3462,7 +3462,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3495,7 +3495,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3541,7 +3541,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3587,7 +3587,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3616,7 +3616,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3651,11 +3651,74 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
   'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_customer_hospitalization_notify';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_customer_invite` (
+  `id` bigint COMMENT '',
+  `invite_id` bigint COMMENT '邀请id',
+  `customer_id` bigint COMMENT '会员id',
+  `invite_title` string COMMENT '邀请标题',
+  `invite_type` int COMMENT '1-康复日记邀请',
+  `customer_guide` string COMMENT '邀请内容',
+  `create_time` timestamp COMMENT '创建时间',
+  `last_update_time` timestamp COMMENT '修改时间',
+  `sort_id` int COMMENT '排序',
+  `is_valid` int COMMENT '是否有效',
+  `site_id` int COMMENT '站点'
+) COMMENT '会员邀请表'
+PARTITIONED BY (
+  `dt` string)
+ROW FORMAT SERDE
+  'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+  'field.delim'='\001',
+  'line.delim'='\n',
+  'escape.delim'='\\',
+  'serialization.null.format'='')
+STORED AS INPUTFORMAT
+  'org.apache.hadoop.mapred.TextInputFormat'
+OUTPUTFORMAT
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_customer_invite';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_customer_invite_attachment` (
+  `id` bigint COMMENT '',
+  `invite_id` bigint COMMENT '邀请id',
+  `att_invite_type` int COMMENT '1-康复日记H5邀请2-康复日记小程序邀请',
+  `att_name` string COMMENT '附件说明（图片标题等）',
+  `att_type` int COMMENT '附件类型：1-图片，2-视频,4-视频缩略图,5-语音,6-封面图片',
+  `att_size` string COMMENT '附件大小：KB',
+  `att_format` string COMMENT '附件格式：jpg、mp4...',
+  `att_spec` string COMMENT '附件规格(1-原始文件、2-缩略图源文件、3-225*150、4-157*109、5-140*190、6-110*150、7-75*52、8-480*320、9-1280*720、10-900*600、12-300*200、13-450*300、14-750*500、15-七牛视频原图)',
+  `att_height` string COMMENT '附件高度',
+  `att_width` string COMMENT '附件宽度',
+  `att_url` string COMMENT '附件url',
+  `upload_time` timestamp COMMENT '附件上传时间',
+  `sort_id` int COMMENT '顺序号',
+  `is_valid` int COMMENT '是否有效',
+  `send_site_id` int COMMENT '站点',
+  `create_time` timestamp COMMENT '创建时间'
+) COMMENT '会员邀请附件信息表'
+PARTITIONED BY (
+  `dt` string)
+ROW FORMAT SERDE
+  'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+  'field.delim'='\001',
+  'line.delim'='\n',
+  'escape.delim'='\\',
+  'serialization.null.format'='')
+STORED AS INPUTFORMAT
+  'org.apache.hadoop.mapred.TextInputFormat'
+OUTPUTFORMAT
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_customer_invite_attachment';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_customer_liquidation` (
   `id` bigint COMMENT '',
@@ -3683,7 +3746,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3707,7 +3770,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3737,7 +3800,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3767,7 +3830,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3814,7 +3877,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3861,7 +3924,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3887,7 +3950,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3913,7 +3976,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3939,7 +4002,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -3965,7 +4028,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4010,7 +4073,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4038,7 +4101,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4065,7 +4128,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4092,7 +4155,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4119,7 +4182,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4145,7 +4208,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4171,7 +4234,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4203,7 +4266,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4236,7 +4299,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4264,7 +4327,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4273,7 +4336,7 @@ LOCATION
 CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_customer_reprint` (
   `id` bigint COMMENT '',
   `customer_id` bigint COMMENT '会员id',
-  `reprint_type` int COMMENT '转载类型（1-视频，2-文库，3-会议，4-话题 ,5-笔记,25-患教）',
+  `reprint_type` int COMMENT '转载类型（1-视频，2-文库，3-会议，4-话题 ,5-笔记,25-患教-26-手册）',
   `ref_id` bigint COMMENT '转发具体信息id',
   `ref_customer_id` bigint COMMENT '冗余存放资源关联会员id',
   `ref_name` string COMMENT '转载具体信息名字',
@@ -4294,7 +4357,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4332,7 +4395,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4370,7 +4433,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4397,7 +4460,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4430,7 +4493,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4455,7 +4518,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4484,7 +4547,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4508,7 +4571,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4524,7 +4587,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_customer_share` (
   `resource_id` bigint COMMENT '资源id',
   `resource_type` bigint COMMENT '资源类型',
   `resource_url` string COMMENT '分享地址',
-  `share_channel` int COMMENT '分享渠道（1-QQ空间，2-QQ好友，3-新浪微博，4-微信好友，5-微信朋友圈 ，6短信，7-邮件）',
+  `share_channel` int COMMENT '分享渠道（1-QQ空间，2-QQ好友，3-新浪微博，4-微信好友，5-微信朋友圈 ，6短信，7-邮件，8-IM患者）',
   `create_time` timestamp COMMENT '创建时间',
   `site_id` int COMMENT '发送渠道',
   `is_valid` int COMMENT '是否有效（0-无效 1-有效）'
@@ -4539,7 +4602,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4565,7 +4628,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4602,7 +4665,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4651,7 +4714,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4700,7 +4763,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4742,7 +4805,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4780,7 +4843,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4798,7 +4861,8 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_education_message` (
   `send_type` int COMMENT '发送类型(1-立即发送、2-定时发送)',
   `send_time` timestamp COMMENT '发送时间',
   `last_update_time` timestamp COMMENT '更改时间',
-  `create_time` timestamp COMMENT '创建时间(yyyy-mm-dd  hh:mm:ss)'
+  `create_time` timestamp COMMENT '创建时间(yyyy-mm-dd  hh:mm:ss)',
+  `source_type` int COMMENT '来源类型（0-患教文章1-患教手册）'
 ) COMMENT '患教消息表'
 PARTITIONED BY (
   `dt` string)
@@ -4810,7 +4874,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4835,7 +4899,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4862,7 +4926,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -4935,7 +4999,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5008,7 +5072,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5081,7 +5145,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5154,7 +5218,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5209,7 +5273,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5253,7 +5317,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5306,7 +5370,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5358,7 +5422,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5411,7 +5475,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5464,7 +5528,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5498,7 +5562,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5530,7 +5594,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5588,7 +5652,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5629,7 +5693,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5670,7 +5734,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5702,7 +5766,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5735,7 +5799,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5764,7 +5828,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5804,7 +5868,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5832,7 +5896,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5857,7 +5921,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5885,7 +5949,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5913,7 +5977,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5941,7 +6005,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -5980,7 +6044,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6018,7 +6082,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6056,7 +6120,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6094,7 +6158,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6132,7 +6196,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6170,7 +6234,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6212,7 +6276,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6254,7 +6318,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6296,7 +6360,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6338,7 +6402,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6380,7 +6444,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6422,7 +6486,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6464,7 +6528,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6496,7 +6560,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6524,7 +6588,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6554,7 +6618,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6587,7 +6651,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6617,7 +6681,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6661,7 +6725,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6705,7 +6769,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6749,7 +6813,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6793,7 +6857,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6829,7 +6893,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6856,7 +6920,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6886,7 +6950,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6916,7 +6980,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6943,7 +7007,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -6966,7 +7030,7 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_rehabilitative_diary` (
   `web_storage_path` string COMMENT '终端页路径',
   `app_storage_path` string COMMENT '终端页路径',
   `tpl_path` string COMMENT '模板路径',
-  `source_type` int COMMENT '来源类型 (0-PGC 1-UGC)',
+  `source_type` int COMMENT '来源类型 (0-UGC 1-PGC)',
   `browse_num` bigint COMMENT '浏览数',
   `review_num` bigint COMMENT '用户评论数',
   `virtual_review_num` bigint COMMENT '作者评论数',
@@ -6984,7 +7048,14 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_rehabilitative_diary` (
   `sort_id` int COMMENT '排序id',
   `is_valid` int COMMENT '是否有效（0-无效1-有效）',
   `send_site_id` int COMMENT '操作站点(17-患者微信、18-分诊平台、19-医生端会诊Android、20-医生端会诊IOS、21-患者M站、22-ios患者app端、23-Android患者端app)',
-  `share_guide` string COMMENT '分享引导语'
+  `share_guide` string COMMENT '分享引导语',
+  `fail_reason` string COMMENT '审核失败原因',
+  `diary_remark` string COMMENT '日记备注',
+  `popularize_tag` string COMMENT '推广标签',
+  `operation_time` timestamp COMMENT '手术时间',
+  `part_id_list` string COMMENT '患病部位',
+  `source_diary_type` int COMMENT '日志邀请来源类型 (1-后台录入 2-邀请mini 3-邀请H5 4-唯医骨科我的)',
+  `audit_time` timestamp COMMENT '审核时间'
 ) COMMENT ''
 PARTITIONED BY (
   `dt` string)
@@ -6996,7 +7067,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -7049,7 +7120,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -7075,7 +7146,8 @@ CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_rehabilitative_diary_attachm
   `qiniu_status` int COMMENT '七牛视频处理状态0－未上传，1－上传成功，2－转码成功,3-转码中',
   `is_qiniu` int COMMENT '是否七牛砖码,默认值0-不是，1-是七牛',
   `play_num` bigint COMMENT '播放次数',
-  `play_time` string COMMENT '播放时长'
+  `play_time` string COMMENT '播放时长',
+  `source_type` int COMMENT '来源类型（0-后台上传1-我的心声2-患病经历3-入院治疗4-出院康复历程5-术前图片6-术后图片7-术前视频8-术后视频9-封面图片10-更新日记图片11-更新日记视频）'
 ) COMMENT '康复日记附件信息表'
 PARTITIONED BY (
   `dt` string)
@@ -7087,7 +7159,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -7114,7 +7186,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -7139,7 +7211,7 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
@@ -7164,9 +7236,70 @@ WITH SERDEPROPERTIES (
   'escape.delim'='\\',
   'serialization.null.format'='')
 STORED AS INPUTFORMAT
-  'com.hadoop.mapred.DeprecatedLzoTextInputFormat'
+  'org.apache.hadoop.mapred.TextInputFormat'
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
   'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_rehabilitative_diary_content_20180919';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_rehabilitative_diary_supplement` (
+  `id` bigint COMMENT '',
+  `diary_id` bigint COMMENT '康复日记id',
+  `supplement_id` bigint COMMENT '补充id',
+  `supplement_type` int COMMENT '补充类型（1-我的心声2-患病经历3-入院治疗4-出院康复历程5-术前图片6-术后图片7-术前视频8-术后视频9-更新日记10-更新日记图片11-更新日记视频）',
+  `supplement_question` string COMMENT '补充问题',
+  `supplement_content` string COMMENT '补充答案',
+  `sort_id` int COMMENT '排序',
+  `site_id` int COMMENT '站点id',
+  `is_valid` int COMMENT '是否有效',
+  `last_update_time` timestamp COMMENT '最近一次修改时间',
+  `create_time` timestamp COMMENT '创建时间'
+) COMMENT '康复日记补充信息表'
+PARTITIONED BY (
+  `dt` string)
+ROW FORMAT SERDE
+  'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+  'field.delim'='\001',
+  'line.delim'='\n',
+  'escape.delim'='\\',
+  'serialization.null.format'='')
+STORED AS INPUTFORMAT
+  'org.apache.hadoop.mapred.TextInputFormat'
+OUTPUTFORMAT
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_rehabilitative_diary_supplement';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS `ods.ods_tocure_rehabilitative_diary_supplement_record` (
+  `id` bigint COMMENT '',
+  `supplement_id` bigint COMMENT '补充id',
+  `diary_id` bigint COMMENT '康复日记id',
+  `deal_author` string COMMENT '处理人',
+  `deal_remark` string COMMENT '处理备注',
+  `status` int COMMENT '审核状态（1-草稿2-待审核3-审核通过4-审核失败）',
+  `deal_time` timestamp COMMENT '处理时间',
+  `reason` string COMMENT '审核失败原因',
+  `sort_id` int COMMENT '排序',
+  `site_id` int COMMENT '站点id',
+  `is_valid` int COMMENT '是否有效',
+  `last_update_time` timestamp COMMENT '最近一次修改时间',
+  `create_time` timestamp COMMENT '创建时间',
+  `source_type` int COMMENT '来源类型（主日记更新内容-0部分日记更新-1）'
+) COMMENT '康复日记补充记录表'
+PARTITIONED BY (
+  `dt` string)
+ROW FORMAT SERDE
+  'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+  'field.delim'='\001',
+  'line.delim'='\n',
+  'escape.delim'='\\',
+  'serialization.null.format'='')
+STORED AS INPUTFORMAT
+  'org.apache.hadoop.mapred.TextInputFormat'
+OUTPUTFORMAT
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  'hdfs://allincluster/user/hive/data/ods/tocure_platform/ods_tocure_rehabilitative_diary_supplement_record';
 
