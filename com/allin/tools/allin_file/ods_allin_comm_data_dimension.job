@@ -1,0 +1,5 @@
+type=command
+command=sh ods_allin_comm_data_dimension.sh
+dependencies=start
+retries=2
+retry.backoff=300000

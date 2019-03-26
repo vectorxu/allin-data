@@ -15,7 +15,7 @@ def db_connect():
 
 
 def get_table():
-    cur=db_connect()
+    cur = db_connect()
     database = "med_platform"
     ods_pre = "ods_"
     sql_tablename = "select table_name,table_comment from information_schema.tables where table_schema=\'" + database + "\' and table_type='base table';"

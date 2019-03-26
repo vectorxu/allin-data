@@ -1,0 +1,5 @@
+type=command
+command=sh ods_tocure_customer_advice_setting_201804241121.sh
+dependencies=start
+retries=2
+retry.backoff=300000

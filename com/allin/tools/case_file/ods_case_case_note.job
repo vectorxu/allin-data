@@ -1,0 +1,5 @@
+type=command
+command=sh ods_case_case_note.sh
+dependencies=start
+retries=2
+retry.backoff=300000

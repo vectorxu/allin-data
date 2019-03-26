@@ -1,0 +1,5 @@
+type=command
+command=sh ods_med_doc_attachment_20160420.sh
+dependencies=start
+retries=2
+retry.backoff=300000

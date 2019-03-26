@@ -65,7 +65,9 @@ def get_table():
         file=\
            "type=command\n"\
            "command=sh "+filename+"\n"\
-           "dependencies=start"
+           "dependencies=start\n" \
+           "retries=2\n" \
+           "retry.backoff=300000"
         #print(file)
         write_file(jobfilename, file)
 

@@ -1,0 +1,3 @@
+type=command
+command=sh ods_patienteducation_cms_manual_label_relation.sh
+dependencies=start

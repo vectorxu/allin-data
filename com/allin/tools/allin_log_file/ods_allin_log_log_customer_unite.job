@@ -1,0 +1,3 @@
+type=command
+command=sh ods_allin_log_log_customer_unite.sh
+dependencies=start

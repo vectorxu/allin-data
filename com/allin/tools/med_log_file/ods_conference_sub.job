@@ -1,0 +1,3 @@
+type=command
+command=sh ods_conference_sub.sh
+dependencies=start
