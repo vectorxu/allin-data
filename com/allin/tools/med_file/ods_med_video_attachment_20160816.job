@@ -1,5 +1,0 @@
-type=command
-command=sh ods_med_video_attachment_20160816.sh
-dependencies=start
-retries=2
-retry.backoff=300000

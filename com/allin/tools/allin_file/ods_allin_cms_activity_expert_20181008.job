@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_cms_activity_expert_20181008.sh
-dependencies=start
-retries=2
-retry.backoff=300000

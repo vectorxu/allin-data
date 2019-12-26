@@ -1,5 +1,0 @@
-type=command
-command=sh ods_tocure_customer_comm_reply_20180110.sh
-dependencies=start
-retries=2
-retry.backoff=300000

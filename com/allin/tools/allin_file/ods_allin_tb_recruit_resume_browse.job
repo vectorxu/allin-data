@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_tb_recruit_resume_browse.sh
-dependencies=start
-retries=2
-retry.backoff=300000

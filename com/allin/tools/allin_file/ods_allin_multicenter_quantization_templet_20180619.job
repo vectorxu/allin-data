@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_multicenter_quantization_templet_20180619.sh
-dependencies=start
-retries=2
-retry.backoff=300000

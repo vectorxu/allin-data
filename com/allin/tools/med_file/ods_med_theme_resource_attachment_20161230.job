@@ -1,5 +1,0 @@
-type=command
-command=sh ods_med_theme_resource_attachment_20161230.sh
-dependencies=start
-retries=2
-retry.backoff=300000

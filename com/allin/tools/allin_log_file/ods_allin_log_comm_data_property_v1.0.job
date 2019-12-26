@@ -1,3 +1,0 @@
-type=command
-command=sh ods_allin_log_comm_data_property_v1.0.sh
-dependencies=start

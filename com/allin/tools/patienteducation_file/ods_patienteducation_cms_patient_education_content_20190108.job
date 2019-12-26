@@ -1,3 +1,0 @@
-type=command
-command=sh ods_patienteducation_cms_patient_education_content_20190108.sh
-dependencies=start

@@ -1,3 +1,0 @@
-type=command
-command=sh ods_log_med_customer_browse_history.sh
-dependencies=start

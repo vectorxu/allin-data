@@ -1,3 +1,0 @@
-type=command
-command=sh ods_log_med_notify_message.sh
-dependencies=start

@@ -8,10 +8,9 @@ import pymysql
 # 生成sqoop语句
 def get_table():
     db = pymysql.connect(host="192.168.1.22", user="dev", password="e2s0m1h6", port=4417, database="information_schema")
-   # db = pymysql.connect(host="123.57.69.57", user="readonly", password="9ciuBd!D", port=4417,database="information_schema")
 
-    database = "allin_platform"
-    ods_pre = "ods_allin_"
+    database = "allin_shopping"
+    ods_pre = "ods_allin_shopping_"
     sql_tablename = "select table_name from information_schema.tables where table_schema=\'"+database+"\' and table_type='base table';"
     cursor = db.cursor()
     # 执行SQL语句
@@ -30,14 +29,14 @@ def get_table():
                 "\n" \
                 "etl_date=`date -d -1day +%Y-%m-%d`\n" \
                 "\n" \
-                "host=`sudo cat sqoop_allin_to_ods.conf | grep host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-                "port=`sudo cat sqoop_allin_to_ods.conf | grep port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-                "user=`sudo cat sqoop_allin_to_ods.conf | grep user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-                "password=`sudo cat sqoop_allin_to_ods.conf | grep password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-                "database=`sudo cat sqoop_allin_to_ods.conf | grep database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "host=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "port=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "user=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "password=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+                "database=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
                 "\n" \
                 "sqoop import \\\n" \
-                "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n" \
+                "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n" \
                 "--username ${user} \\\n" \
                 "--password ${password} \\\n" \
                 "--query \"select " + col + " from " + tablename + " where 1=1 AND \\$CONDITIONS\" \\\n" \
@@ -64,14 +63,14 @@ def get_table():
                "\n"\
                "etl_date=`date -d -1day +%Y-%m-%d`\n" \
                "\n" \
-               "host=`sudo cat sqoop_allin_to_ods.conf | grep host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
-               "port=`sudo cat sqoop_allin_to_ods.conf | grep port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
-               "user=`sudo cat sqoop_allin_to_ods.conf | grep user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-               "password=`sudo cat sqoop_allin_to_ods.conf | grep password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
-               "database=`sudo cat sqoop_allin_to_ods.conf | grep database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "host=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_host | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "port=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_port | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
+               "user=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_user | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+               "password=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_password | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n" \
+               "database=`sudo cat sqoop_shopping_to_ods.conf | grep shopping_database | awk -F'=' '{ print $2 }' | sed s/[[:space:]]//g`\n"\
                "\n"\
                "sqoop import \\\n"\
-               "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n"\
+               "--connect \"jdbc:mysql://${host}:${port}/${database}?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false&zeroDateTimeBehavior=convertToNull&useSSL=false\" \\\n"\
                "--username ${user} \\\n"\
                "--password ${password} \\\n"\
                "--query \"select "+col+" from "+tablename+" where 1=1 AND \\$CONDITIONS\" \\\n"\
@@ -120,9 +119,8 @@ def get_table():
 
 # 生成表的字段
 def get_colume(tablename):
-   sql_columnname = "select COLUMN_NAME from information_schema.COLUMNS where table_name = \'" + tablename + "\' and table_schema='allin_platform';"
+   sql_columnname = "select COLUMN_NAME from information_schema.COLUMNS where table_name = \'" + tablename + "\' and table_schema='allin_shopping';"
    db1 = pymysql.connect(host="192.168.1.22", user="dev", password="e2s0m1h6", port=4417, database="information_schema")
-   #db1 = pymysql.connect(host="123.57.69.57", user="readonly", password="9ciuBd!D", port=4417,database="information_schema")
    cur = db1.cursor()
    cur.execute(sql_columnname)
    r = cur.fetchall()
@@ -149,5 +147,3 @@ if __name__ == '__main__':
     # print(q)
 
     get_table()
-
-

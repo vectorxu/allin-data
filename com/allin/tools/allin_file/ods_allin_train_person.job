@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_train_person.sh
-dependencies=start
-retries=2
-retry.backoff=300000

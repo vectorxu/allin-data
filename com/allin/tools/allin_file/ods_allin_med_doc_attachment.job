@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_med_doc_attachment.sh
-dependencies=start
-retries=2
-retry.backoff=300000

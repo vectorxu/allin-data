@@ -1,5 +1,0 @@
-type=command
-command=sh ods_allin_customer_push_great_people.sh
-dependencies=start
-retries=2
-retry.backoff=300000

@@ -1,5 +1,0 @@
-type=command
-command=sh ods_tocure_cms_major_illness_relation.sh
-dependencies=start
-retries=2
-retry.backoff=300000

@@ -1,5 +1,0 @@
-type=command
-command=sh ods_med_recommend_resource_item_copy.sh
-dependencies=start
-retries=2
-retry.backoff=300000

@@ -5,11 +5,11 @@
 import pymysql
 
 
+
+
+
 def db_connect():
-    db = pymysql.connect(host="192.168.1.22", user="dev", password="e2s0m1h6", port=4417, database="information_schema")
-
-   # db = pymysql.connect(host="123.57.69.57", user="readonly", password="9ciuBd!D", port=4417,database="information_schema")
-
+    db = pymysql.connect(host="192.168.1.22", user="dev", password="e2s0m1h6", port=4417,database="information_schema")
     cursor = db.cursor()
     return cursor
     db.close()
@@ -17,9 +17,9 @@ def db_connect():
 
 def get_table():
     cur=db_connect()
-    database = "allin_platform"
-    ods_pre = "ods_allin_"
-    sql_tablename = "select table_name,table_comment from information_schema.tables where table_schema='allin_platform' and table_type='base table';"
+    database = "allin_shopping"
+    ods_pre = "ods_allin_shopping_"
+    sql_tablename = "select table_name,table_comment from information_schema.tables where table_schema=\'"+ database +"\' and table_type='base table';"
 
     # 执行SQL语句
     cur.execute(sql_tablename)
@@ -33,7 +33,8 @@ def get_table():
 
 
 def create_table_ddl(tablename,ods_pre,tablecomment,allin_platform):
-    col = "select column_name,data_type,column_comment from information_schema.COLUMNS where table_name = \'" + tablename + "\' and table_schema='allin_platform';"
+    col = "select column_name,data_type,column_comment from information_schema.COLUMNS where table_name = \'" + tablename + "\' and table_schema='allin_shopping';"
+
     cur = db_connect()
     cur.execute(col)
     results = cur.fetchall()
@@ -54,6 +55,8 @@ def create_table_ddl(tablename,ods_pre,tablecomment,allin_platform):
     c9 = c8.replace(" bit ", " int ")
 
     cols=c9[:-2]
+
+    print(tablename)
 
     ddl="CREATE EXTERNAL TABLE IF NOT EXISTS `ods."+ods_pre+tablename+"` (\n" \
                 ""+cols+"\n" \
@@ -85,5 +88,5 @@ def write_file(file,database):
 
 if __name__ == '__main__':
     get_table()
-    #ddl=create_table_ddl("tb_web_sys_function","ods_allin_","会员认证信息","allin_platform")
-    #print(ddl)
+    # ddl=create_table_ddl("tocure_cms_activity_doctor","ods_","会员认证信息","tocure_platform")
+    # print(ddl)

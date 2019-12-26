@@ -1,3 +1,0 @@
-type=command
-command=sh ods_allin_log_log_case_baseinfo.sh
-dependencies=start

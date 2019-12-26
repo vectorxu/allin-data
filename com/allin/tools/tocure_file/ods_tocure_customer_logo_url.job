@@ -1,5 +1,0 @@
-type=command
-command=sh ods_tocure_customer_logo_url.sh
-dependencies=start
-retries=2
-retry.backoff=300000
